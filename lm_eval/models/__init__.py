@@ -1,4 +1,8 @@
 from . import (
+    hf_fault_1,
+    hf_fault_2,
+    hf_fault_3,
+    hf_record,
     anthropic_llms,
     api_models,
     dummy,
@@ -10,7 +14,6 @@ from . import (
     ibm_watsonx_ai,
     mamba_lm,
     nemo_lm,
-    neuralmagic,
     neuron_optimum,
     openai_completions,
     optimum_ipex,
@@ -21,7 +24,6 @@ from . import (
     vllm_causallms,
     vllm_vlms,
 )
-
 
 # TODO: implement __all__
 
